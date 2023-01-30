@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>FoodJP</title>
+</head>
+<body class="container">
+
+    <header class="d-flex  justify-content-between  align-items-center  mb-4">
+        <div class="logo"><img src="./image/FoodJP.png" alt=""></div>
+        <div class="container_nav">
+            <ul class="menu_nav  d-flex  justify-content-between  list-inline">
+                <li class="itens_menu  px-4  fw-semibold">Início</li>
+                <li class="itens_menu  px-4  fw-semibold">Cardápio</li>
+                <li class="itens_menu  px-4  fw-semibold">Sobre</li>
+            </ul>
+        </div>
+        <button class="entrar  btn btn-outline-dark  px-4">Entrar</button>
+    </header>
+
+    <main>
+        <section class="container-principal  d-flex flex-column justify-content-between  align-items-center   my-5">
+
+            <div class="acesso-cardapio  d-flex  flex-row  justify-content-between  align-items-center  my-5  row-gap-5  flex-wrap ">
+                <div class="w-50">
+                    <h2 class="nome-descricao">Comida Oriental</h2>
+                    <p class="texto-descricao  ">
+                        A culinária Japonesa é bastante equilibrada, sendo muito rica em peixes (ômega 3), vegetais, massas e ingredientes frescos.
+                    </p>
+                    <button class="botao-cardapio  btn btn-danger  px-5 text-center">Cardápio</button>
+                </div>
+                <div><img src="./image/kisspng-sushi-japanese-cuisine-buffet-restaurant-food-office-catering-corporate-catering-san-francis-5bab5b3f1579d9 1.png" alt="Imagem" class="img-principal  img-fluid  d-none d-lg-block"></div>
+            </div>
+
+            <div class="acesso-cardapio  d-flex  flex-row-reverse  justify-content-between  align-items-center  flex-wrap  my-5">
+                <div class="w-50">
+                    <h2 class="nome-descricao">Feita de forma Tradicional</h2>
+                    <p class="texto-descricao">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </p>
+                    <a href="#" class="preparo-cardapio">Ler mais sobre o modo de preparo</a>
+                </div>
+                <div ><img src="./image/img_segurando_prato.png" alt="imagem de duas mãos segurando um prato de comida Japonesa" class="img-principal  img-fluid  "></div>
+            </div>
+        </section>
+
+        <section class="container-populares  d-flex  flex-row  justify-content-between  align-items-center  flex-wrap">
+            <h2 class="titulo-populares"></h2>
+            <div class="mais-populares">
+                <img src="./image/pratos/ramen-frango.png" alt="">
+                <div class="descricao-populares">
+                    <h3 class="nome-prato">Ramen de Frango</h3>
+                    <p class="texto-prato">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 class="valor-prato">R$ 30</h3>
+                </div>
+            </div>
+            <div class="mais-populares">
+                <img src="./image/pratos/ramen-apimentado.png" alt="">
+                <div class="descricao-populares">
+                    <h3 class="nome-prato">Ramen Apimentado</h3>
+                    <p class="texto-prato">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 class="valor-prato">R$ 30</h3>
+                </div>
+            </div>
+            <div class="mais-populares">
+                <img src="./image/pratos/ramen-tradicional.png" alt="">
+                <div class="descricao-populares">
+                    <h3 class="nome-prato">Ramen Tradicional</h3>
+                    <p class="texto-prato">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 class="valor-prato">R$ 30</h3>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>
